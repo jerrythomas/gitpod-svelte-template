@@ -12,9 +12,7 @@ WORKDIR /home/gitpod
 
 # update system packages and cleanup cache
 ARG DEBIAN_FRONTEND=noninteractive
-RUN sudo apt-get -y update \
-	&& sudo apt-get -y upgrade \
-	&& sudo rm -rf /var/lib/apt/lists/* \
+RUN sudo install-packages zsh \
 	&& chsh -s /bin/zsh
 
 USER gitpod
