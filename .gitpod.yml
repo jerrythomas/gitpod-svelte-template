@@ -1,5 +1,4 @@
-image:
-  file: .gitpod.Dockerfile
+image: jerrythomas/gitpod-workspace
 
 tasks:
   - init: pnpm install
