@@ -4,10 +4,12 @@ tasks:
   - init: pnpm install
     command: |
       export CLIENT_URL="$(gp url 35729)/livereload.js?snipver=1&port=443"
-      { gp await-port 5000 && sleep 5 && gp preview $(gp url 5000) & } &> /dev/null
+      { gp await-port 5173 && sleep 5 && gp preview $(gp url 5173) & } &> /dev/null
       gp open src/App.svelte
       pnpm dev
 ports:
+  - port: 5173
+    onOpen: ignore
   - port: 5000
     onOpen: ignore
   - port: 35729
@@ -15,15 +17,16 @@ ports:
 vscode:
   extensions:
     - svelte.svelte-vscode
-    - ardenivanov.svelte-intellisense
-    - antfu.browse-lite
     - antfu.iconify
     - antfu.unocss
     - antfu.vite
-    - antfu.where-am-i
     - lokalise.i18n-ally
     - dbaeumer.vscode-eslint
     - tabnine.tabnine-vscode
     - esbenp.prettier-vscode
     - usernamehw.errorlens
-    - mskelton.one-dark-theme
+    - Wattenberger.footsteps
+    - zhuangtongfa.material-theme
+    # - mskelton.one-dark-theme
+    # - antfu.where-am-i
+    # - antfu.browse-lite

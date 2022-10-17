@@ -6,7 +6,7 @@
   "editor.fontSize": 16,
   "workbench.iconTheme": "file-icons-colourless",
   "workbench.tree.indent": 16,
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 16,
   "svelte.plugin.svelte.format.config.svelteSortOrder": "options-scripts-styles-markup",
   "workbench.preferredDarkColorTheme": "One Dark",
   "workbench.colorTheme": "One Dark",
