@@ -25,5 +25,5 @@ RUN brew update \
 	&& brew upgrade \
 	&& brew cleanup \
 	&& brew install spaceship pnpm nvm \
-	&& echo "source $(brew --prefix)/opt/spaceship/spaceship.zsh" >>! ~/.zshrc \
-	&& chsh -s /bin/zsh
+	&& echo "source $(brew --prefix)/opt/spaceship/spaceship.zsh" >>! ~/.zshrc
+# && chsh -s /bin/zsh
