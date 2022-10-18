@@ -10,7 +10,9 @@ tasks:
 ports:
   - port: 5173
     onOpen: ignore
-  - port: 5000
+  - port: 5555
+    onOpen: ignore
+  - port: 4000
     onOpen: ignore
   - port: 35729
     onOpen: ignore
@@ -27,6 +29,6 @@ vscode:
     - usernamehw.errorlens
     - Wattenberger.footsteps
     - zhuangtongfa.material-theme
-    # - mskelton.one-dark-theme
+    - mskelton.one-dark-theme
     # - antfu.where-am-i
     # - antfu.browse-lite
