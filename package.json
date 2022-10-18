@@ -1,0 +1,27 @@
+{
+  "name": "svelte",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@iconify/utils": "^2.0.1",
+    "@jerrythomas/eslint-config-svelte": "^1.0.0",
+    "@jerrythomas/prettier-config": "^1.0.0",
+    "@sveltejs/vite-plugin-svelte": "^1.0.2",
+    "@testing-library/svelte": "^3.2.2",
+    "@unocss/core": "^0.45.29",
+    "@unocss/preset-uno": "^0.45.29",
+    "@unocss/reset": "^0.45.29",
+    "@unocss/transformer-directives": "^0.45.29",
+    "svelte": "^3.49.0",
+    "unocss": "^0.45.29",
+    "vite": "^3.1.0",
+    "vitest": "^0.24.3"
+  }
+}
