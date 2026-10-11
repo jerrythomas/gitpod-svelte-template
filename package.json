@@ -21,7 +21,7 @@
     "@unocss/transformer-directives": "^0.55.3",
     "svelte": "^4.2.0",
     "unocss": "^0.55.3",
-    "vite": "^4.4.9",
-    "vitest": "^0.34.3"
+    "vite": "^6.4.3",
+    "vitest": "^4.1.11"
   }
 }
